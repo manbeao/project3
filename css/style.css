@@ -1,0 +1,12 @@
+#wrap {
+    width: 100%;
+    position: relative;
+}
+
+.container {
+    max-width: 1660px;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+}
+
