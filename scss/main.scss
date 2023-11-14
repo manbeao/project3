@@ -32,6 +32,7 @@ header {
             max-width: 1600px;
             width: 100%;
             margin-left: 50px;
+
             a {
                 display: inline-block;
                 width: 35px;
@@ -47,6 +48,7 @@ header {
             width: 150px;
             display: flex;
             margin-right: 50px;
+
             a {
                 font-family: "Noto Sans KR";
                 display: block;
@@ -301,10 +303,10 @@ header {
     display: flex;
     justify-content: center;
     position: relative;
-    margin-top: 50px;
+    margin-top: 90px;
     gap: $fs*2;
 
-    
+
     h2 {
         position: absolute;
         color: $text;
@@ -312,29 +314,582 @@ header {
         font-weight: 800;
         top: -70px;
         left: 285px;
+
+        &::after {
+            content: '';
+            width: 1090px;
+            height: 1px;
+            background-color: $text;
+            position: absolute;
+            top: 50px;
+            left: 0px;
+        }
     }
 
     .img1 {
+        margin-top: 20px;
         width: 340px;
+        font-family: 'Noto Sans KR';
 
         img {
             width: 100%;
+        }
+
+        h3 {
+            font-size: 25px;
+            font-weight: 500;
+            margin-top: $fs;
+        }
+
+        p {
+            font-size: 17px;
+            font-weight: 400;
+            margin-top: $fs;
+            line-height: 1.3;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            height: 70px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            color: $text2;
         }
     }
 
     .img2 {
+        margin-top: 20px;
         width: 340px;
 
         img {
             width: 100%;
+        }
+
+        h3 {
+            font-size: 25px;
+            font-weight: 500;
+            margin-top: $fs;
+        }
+
+        p {
+            font-family: 'Noto Sans KR';
+            font-size: 17px;
+            font-weight: 400;
+            margin-top: $fs;
+            line-height: 1.3;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            height: 70px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            color: $text2;
         }
     }
 
     .img3 {
+        margin-top: 20px;
         width: 340px;
+        font-family: 'Noto Sans KR';
 
         img {
             width: 100%;
         }
+
+        h3 {
+            font-size: 25px;
+            font-weight: 500;
+            margin-top: $fs;
+        }
+
+        p {
+            font-size: 17px;
+            font-weight: 400;
+            margin-top: $fs;
+            line-height: 1.3;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            height: 70px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            color: $text2;
+        }
+    }
+}
+
+
+.bg3 {
+    width: 100%;
+    justify-content: center;
+    position: relative;
+    margin-top: 160px;
+    gap: $fs*2;
+
+    h2 {
+        position: absolute;
+        color: $text;
+        font-size: 30px;
+        font-weight: 800;
+        top: -70px;
+        left: 285px;
+
+        &::after {
+            content: '';
+            width: 1090px;
+            height: 1px;
+            background-color: $text;
+            position: absolute;
+            top: 50px;
+            left: 0px;
+        }
+    }
+
+    .img4 {
+        display: flex;
+        justify-content: center;
+        color: $text;
+        position: relative;
+
+        &::after {
+            content: '';
+            width: 1090px;
+            height: 1px;
+            background-color: $text2;
+            position: absolute;
+            margin-top: 330px;
+            opacity: 0.3;
+        }
+
+        .bg3-img1 {
+            width: 500px;
+            margin-top: 20px;
+            margin-left: -290px;
+        }
+
+        span {
+            display: block;
+            font-size: 15px;
+            font-weight: 700;
+            margin-top: 20px;
+            margin-left: 30px;
+        }
+
+        h3 {
+            font-size: 30px;
+            font-weight: 700;
+            margin-top: 30px;
+            margin-left: 30px;
+        }
+
+        p {
+            display: block;
+            font-size: $fs;
+            margin-top: 25px;
+            margin-left: 30px;
+            color: $text2;
+            font-weight: 400;
+        }
+
+        .icon1 {
+            width: 200px;
+            margin-top: 40px;
+            margin-left: 30px;
+
+            // display: none;
+            img {
+                width: 33px;
+                margin-right: 8px;
+                opacity: 0.3;
+            }
+        }
+    }
+
+    .img5 {
+        display: flex;
+        justify-content: center;
+        color: $text;
+        position: relative;
+        margin-top: 60px;
+
+        &::after {
+            content: '';
+            width: 1090px;
+            height: 1px;
+            background-color: $text2;
+            position: absolute;
+            margin-top: 330px;
+            opacity: 0.3;
+        }
+
+        .bg3-img2 {
+            width: 500px;
+            margin-top: 20px;
+            margin-left: -200px;
+        }
+
+        span {
+            display: block;
+            font-size: 15px;
+            font-weight: 700;
+            margin-top: 20px;
+            margin-left: 30px;
+        }
+
+        h3 {
+            font-size: 30px;
+            font-weight: 700;
+            margin-top: 30px;
+            margin-left: 30px;
+        }
+
+        p {
+            display: block;
+            font-size: $fs;
+            margin-top: 25px;
+            margin-left: 30px;
+            color: $text2;
+            font-weight: 400;
+        }
+
+        .icon2 {
+            width: 200px;
+            margin-top: 40px;
+            margin-left: 30px;
+
+            // display: none;
+            img {
+                width: 33px;
+                margin-right: 8px;
+                opacity: 0.3;
+            }
+        }
+    }
+
+    .img6 {
+        display: flex;
+        justify-content: center;
+        color: $text;
+        position: relative;
+        margin-top: 60px;
+
+        &::after {
+            content: '';
+            width: 1090px;
+            height: 1px;
+            background-color: $text2;
+            position: absolute;
+            margin-top: 330px;
+            opacity: 0.3;
+        }
+
+        .bg3-img3 {
+            width: 500px;
+            margin-top: 20px;
+            margin-left: -100px;
+        }
+
+        span {
+            display: block;
+            font-size: 15px;
+            font-weight: 700;
+            margin-top: 20px;
+            margin-left: 30px;
+        }
+
+        h3 {
+            font-size: 30px;
+            font-weight: 700;
+            margin-top: 30px;
+            margin-left: 30px;
+        }
+
+        p {
+            display: block;
+            font-size: $fs;
+            margin-top: 25px;
+            margin-left: 30px;
+            color: $text2;
+            font-weight: 400;
+        }
+
+        .icon3 {
+            width: 200px;
+            margin-top: 40px;
+            margin-left: 30px;
+
+            // display: none;
+            img {
+                width: 33px;
+                margin-right: 8px;
+                opacity: 0.3;
+            }
+        }
+    }
+
+    .img7 {
+        display: flex;
+        justify-content: center;
+        color: $text;
+        position: relative;
+        margin-top: 60px;
+
+        &::after {
+            content: '';
+            width: 1090px;
+            height: 1px;
+            background-color: $text2;
+            position: absolute;
+            margin-top: 330px;
+            opacity: 0.3;
+        }
+
+        .bg3-img4 {
+            width: 500px;
+            margin-top: 20px;
+            margin-left: -210px;
+        }
+
+        span {
+            display: block;
+            font-size: 15px;
+            font-weight: 700;
+            margin-top: 20px;
+            margin-left: 30px;
+        }
+
+        h3 {
+            font-size: 30px;
+            font-weight: 700;
+            margin-top: 30px;
+            margin-left: 30px;
+        }
+
+        p {
+            display: block;
+            font-size: $fs;
+            margin-top: 25px;
+            margin-left: 30px;
+            color: $text2;
+            font-weight: 400;
+        }
+
+        .icon4 {
+            width: 200px;
+            margin-top: 40px;
+            margin-left: 30px;
+
+            // display: none;
+            img {
+                width: 33px;
+                margin-right: 8px;
+                opacity: 0.3;
+            }
+        }
+    }
+
+    .img8 {
+        display: flex;
+        justify-content: center;
+        color: $text;
+        position: relative;
+        margin-top: 60px;
+
+        &::after {
+            content: '';
+            width: 1090px;
+            height: 1px;
+            background-color: $text2;
+            position: absolute;
+            margin-top: 330px;
+            opacity: 0.3;
+        }
+
+        .bg3-img5 {
+            width: 500px;
+            margin-top: 20px;
+            margin-left: -245px;
+        }
+
+        span {
+            display: block;
+            font-size: 15px;
+            font-weight: 700;
+            margin-top: 20px;
+            margin-left: 30px;
+        }
+
+        h3 {
+            font-size: 30px;
+            font-weight: 700;
+            margin-top: 30px;
+            margin-left: 30px;
+        }
+
+        p {
+            display: block;
+            font-size: $fs;
+            margin-top: 25px;
+            margin-left: 30px;
+            color: $text2;
+            font-weight: 400;
+        }
+
+        .icon5 {
+            width: 200px;
+            margin-top: 40px;
+            margin-left: 30px;
+
+            // display: none;
+            img {
+                width: 33px;
+                margin-right: 8px;
+                opacity: 0.3;
+            }
+        }
+    }
+
+}
+
+
+.bg4 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 250px;
+    gap: $fs*2;
+
+
+    h2 {
+        position: absolute;
+        color: $text;
+        font-size: 30px;
+        font-weight: 800;
+        top: -70px;
+        left: 285px;
+
+        &::after {
+            content: '';
+            width: 1090px;
+            height: 1px;
+            background-color: $text;
+            position: absolute;
+            top: 50px;
+            left: 0px;
+        }
+    }
+
+    .img9 {
+        margin-top: 10px;
+        width: 245px;
+        font-family: 'Noto Sans KR';
+
+        img {
+            width: 100%;
+        }
+
+        p {
+            font-size: 20px;
+            font-weight: 700;
+            margin-top: $fs;
+        }
+    }
+
+    .img10 {
+        margin-top: 10px;
+        width: 245px;
+        font-family: 'Noto Sans KR';
+
+        img {
+            width: 100%;
+        }
+
+        p {
+            font-size: 20px;
+            font-weight: 700;
+            margin-top: $fs;
+        }
+    }
+
+    .img11 {
+        margin-top: 10px;
+        width: 245px;
+        font-family: 'Noto Sans KR';
+
+        img {
+            width: 100%;
+        }
+
+        p {
+            font-size: 20px;
+            font-weight: 700;
+            margin-top: $fs;
+        }
+    }
+
+    .img12 {
+        margin-top: 10px;
+        width: 245px;
+
+        font-family: 'Noto Sans KR';
+
+        img {
+            width: 100%;
+        }
+
+        p {
+            white-space: nowrap;
+            overflow: hidden;
+            display: block;
+            text-overflow: ellipsis;
+            font-size: 20px;
+            font-weight: 700;
+            margin-top: $fs;
+        }
+    }
+}
+
+
+.bg5 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 100px;
+
+    .boxs7 {
+        display: flex;
+        justify-content: space-between;
+        width: 1030px;
+        margin-left: 285px;
+        position: relative;
+
+        h2 {
+            font-size: 30px;
+            font-weight: 800;
+
+            &::after {
+                content: '';
+                position: absolute;
+                width: 1090px;
+                height: 1px;
+                background-color: $text;
+                top: 50px;
+                left: 00px;
+            }
+        }
+
+        p {
+            margin-top: 20px;
+            margin-right: -60px;
+        }
+    }
+
+    .video {
+        margin-top: 50px;
+        width: 1090px;
+        margin-left: 280px;
+        background-color: #000;
+        position: relative;
     }
 }
